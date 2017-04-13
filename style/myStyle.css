@@ -1,0 +1,266 @@
+.divider {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 1040px;
+  min-height: 1px;
+  background-color: rgba(26, 26, 26, 0.15);
+}
+body,
+html {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  min-height: 100%;
+}
+body {
+  position: relative;
+}
+.mainContainer {
+  color: white;
+  height: 100%;
+}
+.mainContainer .blueButton {
+  background-color: rgba(39, 116, 170, 0.8);
+  text-decoration: none;
+  color: white;
+  border-radius: 300px;
+  font-size: 15px;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.mainContainer .blackButton {
+  background-color: #272727;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 20px 30px;
+  font-weight: bold;
+}
+.mainContainer .extraMargin {
+  margin-top: 60px;
+}
+.mainContainer .bigParallax {
+  font-size: 60px;
+}
+.mainContainer .littleParallax {
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
+}
+.mainContainer .menuBar {
+  text-shadow: black 1px 1px 1px;
+  width: 100%;
+  position: fixed;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainContainer .menuBar .officeName {
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.mainContainer .menuBar .menuOptions {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+.mainContainer .menuBar .menuOptions .option {
+  margin: 0 20px;
+}
+.mainContainer .menuBar .menuOptions .optionButton {
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 2px solid white;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+.mainContainer .parallaxHead {
+  box-sizing: border-box;
+  background-image: url("../images/coupleSlider.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  width: 100%;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-shadow: black 1px 1px 1px;
+  min-height: 700px;
+}
+.mainContainer .parallaxHead div {
+  margin: 15px 0;
+}
+.mainContainer .docInfoSection {
+  background-color: floralwhite;
+  width: 100%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 150px 0;
+}
+.mainContainer .docInfoSection .sectionTitles {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.mainContainer .parallaxServices {
+  box-sizing: border-box;
+  background-image: url("../images/surgeon.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  width: 100%;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-shadow: black 1px 1px 1px;
+}
+.mainContainer .parallaxServices div {
+  margin: 15px 0;
+}
+.mainContainer .serviceSection {
+  background-color: floralwhite;
+  width: 100%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 150px 0;
+}
+.mainContainer .serviceSection .sectionTitles {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.mainContainer .serviceSection .picRow {
+  padding: 15px 0;
+}
+.mainContainer .serviceSection .picRow .squarePic {
+  padding: 0 15px;
+}
+.mainContainer .parallaxReviews {
+  box-sizing: border-box;
+  background-image: url("../images/happyFamily.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  width: 100%;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-shadow: black 1px 1px 1px;
+}
+.mainContainer .parallaxReviews div {
+  margin: 15px 0;
+}
+.mainContainer .reviewSection {
+  background-color: floralwhite;
+  width: 100%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 150px 0;
+}
+.mainContainer .reviewSection .sectionTitles {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.mainContainer .parallaxLocation {
+  box-sizing: border-box;
+  background-image: url("../images/blackMap.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  width: 100%;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-shadow: black 1px 1px 1px;
+}
+.mainContainer .parallaxLocation div {
+  margin: 15px 0;
+}
+.mainContainer .locationSection {
+  background-color: floralwhite;
+  width: 100%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 150px 0;
+}
+.mainContainer .locationSection .sectionTitles {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.mainContainer .locationSection .infoHoursContainer {
+  width: 100%;
+  max-width: 1040px;
+  display: flex;
+}
+.mainContainer .locationSection .infoHoursContainer .infoContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.mainContainer .locationSection .infoHoursContainer .infoContainer .address {
+  font-size: 15px;
+  padding: 5px;
+}
+.mainContainer .locationSection .infoHoursContainer .infoContainer .numbers {
+  font-size: 20px;
+  padding: 10px;
+}
+.mainContainer .locationSection .infoHoursContainer .hoursContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.mainContainer .locationSection .infoHoursContainer .hoursContainer .hours {
+  font-size: 15px;
+  padding: 10px;
+}
+.mainContainer .footer {
+  box-sizing: border-box;
+  background-color: #181818;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+}
+.mainContainer .footer .infoBox {
+  display: flex;
+  align-items: center;
+}
+.mainContainer .footer .infoBox .extrapadding {
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
